@@ -238,8 +238,9 @@ h2 {
 .mainpanel  {
   position: relative;
   margin-top: 70px;
-  padding-left: 10px;
-  margin-left: 10px;
+  top: 115%;
+  right:  15%;
+  transform: translateY(-20%);
 }
 .leftcon2 {
 	margin-top: 10px;
@@ -260,11 +261,10 @@ h2 {
 
 .rightcon {
 	text-align: center;
-	margin-left: 5px;
 	margin-top: 5px;
 }
 img {
-	max-width: 400px;
+	max-width: 300px;
 }
 
 }

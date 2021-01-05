@@ -148,16 +148,12 @@ nav ul li a:hover {
     padding:0;
 }
 #main2 {
-	
+	display: inline-flex;
 }
 .rightcon {
 	text-align: center;
-	float: right;
-    clear: right;
-    position: absolute;
-    top: 160%;
-    right: 30%;
-    transform: translateY(-20%);
+	margin-left: 130px;
+	margin-top: 200px;
 }
 #firstfooter{
 	text-align: center;
@@ -201,23 +197,23 @@ h4 {
 		min-height: 400px;
 	}
 	#showcase h1 {
-      padding-left: 80px;
+      padding-left: 50px;
       padding-top: 100px;
-      font-size: 80px;
+      font-size: 70px;
 }
 #showcase h2 {
- 	 padding-left: 40px;
+ 	 padding-left: 20px;
  	 margin-top: 15px;
- 	 font-size: 30px;
+ 	 font-size: 25px;
 }
 #showcase  p {
-  	padding-left: 40px;
+  	padding-left: 20px;
   	padding-bottom: 40px;
 }
 .button1 {
   background-color: black;
-  font-size: 170%;
-  margin-left: 100px;
+  font-size: 140%;
+  margin-left: 50px;
 
 }
 h2 {
@@ -242,6 +238,8 @@ h2 {
 .mainpanel  {
   position: relative;
   margin-top: 70px;
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .leftcon2 {
 	margin-top: 10px;
@@ -249,19 +247,8 @@ h2 {
     padding:0;
 }
 #main2 {
-	
+	display: inline-grid;
 }
-.rightcon {
-	text-align: center;
-	color: black;
-	float: right;
-    clear: right;
-    position: absolute;
-    top: 165%;
-    right: 18%;
-    transform: translateY(-20%);
-    }
-
 .form-pop {
   display: none;
   position: absolute;
@@ -269,6 +256,15 @@ h2 {
    right: 16%;
   border: 3px solid #f1f1f1;
   margin-left: 820px;
+}
+
+.rightcon {
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+img {
+	max-width: 400px;
 }
 
 }

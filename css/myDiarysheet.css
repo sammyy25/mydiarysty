@@ -262,6 +262,7 @@ h2 {
 .rightcon {
 	text-align: center;
 	margin-top: 5px;
+  margin-left: 2px;
 }
 img {
 	max-width: 300px;

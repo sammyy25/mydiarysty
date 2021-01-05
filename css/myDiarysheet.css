@@ -12,8 +12,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
-  background-color: grey;
-  max-height:500px;
+    background-color: grey;
+    max-height:500px;
 }
 img {
 	width: 500px;
@@ -26,16 +26,16 @@ a:hover {
 	text-decoration: none;
 }
 h2 {
-	font-size: 25px;
+	font-size: 45px;
 }
 h1 {
-	font-size: 60px;
+	font-size: 100px;
 	line-height: 1;
 }
 
 h1, h2 {
 	font-family: 'Caveat', cursive;
-	font-weight: 200;
+	font-weight: 400;
 	margin: 0;
 }
 header {
@@ -80,32 +80,33 @@ nav ul li a:hover {
   background-color: white;
 }
 #showcase {
-  min-height: 400px;
+  min-height: 800px;
   background: url("../images/myt.jpg") no-repeat ;
   background-size: cover;
 }
 #showcase h1 {
-  padding-left: 100px;
-  padding-top: 130px;
+  padding-left: 300px;
+  padding-top: 200px;
 }
 #showcase h2 {
-  padding-left: 70px;
-  margin-top: 15px;
+  padding-left: 200px;
+  margin-top: 20px;
 }
 #showcase  p {
-  padding-left: 70px;
+  padding-left: 280px;
 }
 .button1 {
   background-color: black;
-  font-size: 150%;
-  margin-left: 100px;
+  font-size: 220%;
+  margin-left: 280px;
 }
 #login {
   color: grey;
 }
 .container1{
-  text-align: justify;
   text-align: center;
+  padding-left: 600px;
+  padding-right: 600px;
 }
 .button2 {
   background-color: black;
@@ -116,11 +117,10 @@ nav ul li a:hover {
   font-size: 110%;
 }
 .leftcon {
-  text-align: left;
   text-align: justify;
-  margin-left: 30px;
-  margin-top: 45px;
-  margin-right: 10px;
+  margin-left: 300px;
+  margin-top: 65px;
+  margin-right: 0px;
 }
 .mainpanel  {
   background-color: #e5e4d7;
@@ -130,11 +130,11 @@ nav ul li a:hover {
   font-size: 120%;
   float: right;
   width: 280px;
-  clear: left;
-  position: relative;
-  top: 180%;
-  right: 20%;
-  transform: translateY(-2%);
+  clear: right;
+  position: absolute;
+  top: 115%;
+  right:  25%;
+  transform: translateY(-20%);
 }
 .panel {
 	align: center;
@@ -144,18 +144,20 @@ nav ul li a:hover {
 }
 .leftcon2 {
 	margin-top: 150px;
-  padding:0;
+	margin-left: 150px;
+    padding:0;
 }
 #main2 {
-	float: right;
-  clear: right;
-  position: absolute;
-  top: 220%;
-  right: 18%;
-  transform: translateY(-20%);
+	
 }
 .rightcon {
 	text-align: center;
+	float: right;
+    clear: right;
+    position: absolute;
+    top: 160%;
+    right: 30%;
+    transform: translateY(-20%);
 }
 #firstfooter{
 	text-align: center;
@@ -172,8 +174,8 @@ nav ul li a:hover {
 }
 .content {
 	font-size: 100%;
-  text-align: center;
-  padding:20px;
+    text-align: center;
+    padding:20px;
 	background-color: black;
 	width: auto;
 }
@@ -194,71 +196,80 @@ h4 {
 .copywrite {
   padding-top: 50px;
 }
-@media screen and (min-width:750px) {
-  #showcase {
-    min-height: 800px;
-    background-image: url("../images/myt.jpg") no-repeat;
-    background-size: cover;
-  }
-  #showcase h1 {
-    padding-left: 300px;
-    padding-top: 200px;
-  }
-  h1 {
-  	font-size: 100px;
-  	line-height: 1;
-  }
-  h2 {
-  	font-size: 45px;
-  }
-  h1, h2 {
-  	font-family: 'Caveat', cursive;
-  	font-weight: 400;
-  	margin: 0;
+@media (max-width: 750px) {
+	#showcase {
+		min-height: 400px;
+	}
+	#showcase h1 {
+      padding-left: 80px;
+      padding-top: 100px;
+      font-size: 80px;
 }
 #showcase h2 {
-  padding-left: 200px;
-  margin-top: 20px;
+ 	 padding-left: 40px;
+ 	 margin-top: 15px;
+ 	 font-size: 30px;
 }
 #showcase  p {
-  padding-left: 280px;
+  	padding-left: 40px;
+  	padding-bottom: 40px;
 }
 .button1 {
   background-color: black;
-  font-size: 220%;
-  margin-left: 280px;
+  font-size: 170%;
+  margin-left: 100px;
+
+}
+h2 {
+	font-size: 35px;
+}
+.container1{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container1 p {
+	margin: 0;
+}
+#main {
+	padding: 5px;
 }
 .leftcon {
-  text-align: left;
-  text-align: justify;
-  margin-left: 300px;
-  margin-top: 65px;
+  margin-left: 10px;
+  margin-top: 10px;
   margin-right: 0px;
 }
 .mainpanel  {
-  background-color: #e5e4d7;
-  margin-top: 0px 10px 10px 10px;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 120%;
-  float: right;
-  width: 280px;
-  clear: right;
-  position: absolute;
-  top: 120%;
-  right: 25%;
-  transform: translateY(-20%);
+  position: relative;
+  margin-top: 70px;
 }
 .leftcon2 {
-	margin-top: 150px;
-  margin-left: 150px;
-  padding:0;
+	margin-top: 10px;
+	margin-left: 10px;
+    padding:0;
 }
 #main2 {
-	float: right;
-  clear: right;
-  position: absolute;
-  top: 165%;
-  right: 25%;
-  transform: translateY(-20%);
+	
 }
+.rightcon {
+	text-align: center;
+	color: black;
+	float: right;
+    clear: right;
+    position: absolute;
+    top: 165%;
+    right: 18%;
+    transform: translateY(-20%);
+    }
+
+.form-pop {
+  display: none;
+  position: absolute;
+  top: 10%;
+   right: 16%;
+  border: 3px solid #f1f1f1;
+  margin-left: 820px;
+}
+
+}
+   
